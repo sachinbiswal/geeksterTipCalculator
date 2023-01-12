@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./vegetable.jpg);
+    background-size: 100% 100%;
+}
+.outermaindiv{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbf8;
+    box-shadow: 1px 1px 10px;
+}
+.maindiv{
+    width: 80%;
+    height: 100%;
+}
+.maindivupper{
+    width: 100%;
+    height: 15%;
+    border-bottom: 2px solid black;
+}
+.maindivupperdiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindivmiddle{
+    width: 100%;
+    height: 55%;
+}
+.maindivmiddleupper{
+    width: 100%;
+    height: 30%;
+}
+.maindivmiddleupperupper{
+    width: 100%;
+    height: 40%;
+}
+.maindivmiddleupperlower{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.maindivmiddlemiddle{
+    width: 100%;
+    height: 40%;
+}
+.maindivmiddlemiddleupper{
+    width: 100%;
+    height: 40%;
+}
+.maindivmiddlemiddlelower{
+    width: 100%;
+    height: 40%;
+}
+.maindivmiddlelowerupper{
+    width: 100%;
+    height: 40%;
+}
+.maindivmiddlelowerlower{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.maindivlower{
+    width: 100%;
+    height: 30%;
+}
+.maindivmiddlelower{
+    width: 100%;
+    height: 30%;
+}
+.maindivlowerupper{
+    width: 100%;
+    height: 40%;
+    box-shadow: 1px 0px 5px;
+}
+.maindivlowerlower{
+    width: 100%;
+    height: 60%;
+}
+.maindivlowerlowerupper{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.maindivlowerlowermiddle{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindivlowerlowerlower{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
