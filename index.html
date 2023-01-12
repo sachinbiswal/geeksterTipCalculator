@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="outermaindiv">
+            <div class="maindiv">
+                <div class="maindivupper">
+                    <div class="maindivupperdiv">
+                        <h1>Charle's Tip</h1>
+                    </div>
+                    <div class="maindivupperdiv">
+                        <h1>Calculator</h1>
+                    </div>
+                </div>
+                <div class="maindivmiddle">
+                    <div class="maindivmiddleupper">
+                        <div class="maindivmiddleupperupper">
+                            <h3>How much was your bill?</h3>
+                        </div>
+                        <div class="maindivmiddleupperlower">
+                            <h3>₹</h3>
+                            <input type="number" name="" id="bill" style="height: 50%; width:100%;">
+                        </div>
+                    </div>
+                    <div class="maindivmiddlemiddle">
+                        <div class="maindivmiddlemiddleupper">
+                            <h3>How much your services?</h3>
+                        </div>
+                        <div class="maindivmiddlemiddlelower">
+                            <select name="valueOfoption" id="valueOfoption" style="height:50%; width:100%;">
+                                <option disabled selected value="0" >--choose an option--</option>
+                                <option value="30">30% - Outstanding</option>
+                                <option value="20">20% - Good</option>
+                                <option value="15">15% - It was Okay</option>
+                                <option value="10">10% - Bad</option>
+                                <option value="5">5% - Terrible</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="maindivmiddlelower">
+                        <div class="maindivmiddlelowerupper">
+                            <h3>How many people are sharing the bill?</h3>
+                        </div>
+                        <div class="maindivmiddlelowerlower">
+                            <input type="number" name="" id="people" style="height:70%; width:100%;">
+                            <h3>people</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="maindivlower">
+                    <div class="maindivlowerupper">
+                        <button onclick="calculate()" style="width: 100%; height: 100%; background-color: #6c2726 ; color: white;" >CALCULATE!</button>
+                    </div>
+                    <div class="maindivlowerlower">
+                        <div class="maindivlowerlowerupper">
+                            <p id="first" ></p>
+                        </div>
+                        <div class="maindivlowerlowermiddle">
+                            <h2 id="second" ></h2>
+                        </div>
+                        <div class="maindivlowerlowerlower">
+                            <p id="third" ></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
